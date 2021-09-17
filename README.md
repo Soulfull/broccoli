@@ -40,7 +40,7 @@ For production build:
 npm run build
 ```
 
-##File Sctructure
+## File Sctructure
 
 * ``api/`` - contains api layers
 * ``comonents/`` - simple independent components. Potentialy can be moved to ui-kit
