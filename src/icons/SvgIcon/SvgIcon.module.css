@@ -1,0 +1,10 @@
+.host {
+  display: inline-block;
+  flex-shrink: 0;
+  width: 1em;
+  height: 1em;
+  overflow: hidden;
+  fill: currentColor;
+  font-size: 24px;
+  user-select: none;
+}

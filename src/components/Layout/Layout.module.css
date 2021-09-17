@@ -1,0 +1,35 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  height: 100vh;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  height: 80px;
+  padding: 16px;
+  box-sizing: border-box;
+  background-color: antiquewhite;
+}
+
+.logo {
+  font-size: 24px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.content {
+  padding: 32px 16px;
+  flex-grow: 1;
+  box-sizing: border-box;
+}
+
+.footer {
+  padding: 16px;
+  box-sizing: border-box;
+  height: 56px;
+  text-align: center;
+  background-color: antiquewhite;
+}
