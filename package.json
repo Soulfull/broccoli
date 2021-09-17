@@ -1,7 +1,7 @@
 {
   "name": "broccoli",
   "version": "1.0.0",
-  "description": "",
+  "description": "Test task",
   "main": "index.tsx",
   "browserslist": "last 2 versions",
   "scripts": {

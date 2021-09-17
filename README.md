@@ -5,7 +5,7 @@ A test task. Email subscription service for customers.
 ---
 
 ## About
-It is a simple application for users email subscription. The app uses `Typescript` for strict type checking, `React` for working with DOM, `Webpack` for building project and `jest` for unit testing. For working with styles, Broccoli supports `CSS Modules`.
+It is a simple, mobile friendy, application for users email subscription. The app uses `Typescript` for strict type checking, `React` for working with DOM, `Webpack` for building project and `jest` for unit testing. For working with styles, Broccoli supports `CSS Modules`.
 I decided not to use any state manager, because of the simplicity of the app.
 
 ## Installation
@@ -40,12 +40,11 @@ For production build:
 npm run build
 ```
 
-##Description
+##File Sctructure
 
-### File Sctructure
-
-* ``comonents/`` - simple independent components. Potentialy can be moved to ui-kit
 * ``api/`` - contains api layers
+* ``comonents/`` - simple independent components. Potentialy can be moved to ui-kit
 * ``icons/`` - simple components represent UI icons
-* ``module`` - composition of components
-* ``pages`` - application pages components
+* ``modules/`` - composition of components
+* ``modules/forms/`` - forms
+* ``pages/`` - application pages components
