@@ -39,6 +39,7 @@ For production build:
 ```sh
 npm run build
 ```
+It will create `build` folder with optimized files for production.
 
 ## File Sctructure
 
